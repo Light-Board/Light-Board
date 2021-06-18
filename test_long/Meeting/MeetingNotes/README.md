@@ -1,3 +1,3 @@
-# I'm folder1
+# Meeting Notes
 
 source: `{{ page.path }}`

@@ -1,3 +1,3 @@
-# file2
+# Study
 
 source: `{{ page.path }}`
