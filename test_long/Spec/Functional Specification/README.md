@@ -1,3 +1,3 @@
-# file1
+# Functional Specification
 
 source: `{{ page.path }}`

@@ -1,3 +1,3 @@
-# file1
+# Architecture
 
 source: `{{ page.path }}`
