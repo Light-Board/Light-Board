@@ -1,4 +1,4 @@
-# Javascript
+# Lombok
 
 
 source: `{{ page.path }}`
