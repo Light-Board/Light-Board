@@ -4,8 +4,7 @@
 - 일시 2021/05/16
 
 ## 오늘 회의 토픽 요약
-
-![](/../../assets/images/7th_meeting_1)
+![7번째 회의 첨부이미지1](https://raw.githubusercontent.com/Light-Board/Light-Board/master/assets/images/7th_meeting_1.png)
 
 - 환경 세팅
 - [x]  local mysql

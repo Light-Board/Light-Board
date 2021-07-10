@@ -182,7 +182,7 @@ SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 ```
 
-![](/../../assets/images/6th_meeting_1)
+![6번째회의 첨부이미지1](https://raw.githubusercontent.com/Light-Board/Light-Board/master/assets/images/6th_meeting_1.png)
 
 # 다음 회의 토픽
 
