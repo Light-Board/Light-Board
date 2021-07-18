@@ -1,7 +1,7 @@
 ---
 sort: 1
 ---
-# { `{{ sort }}` } th meeting log
+# { } th meeting log
 
 ## 기본 사항
 - 참가자 [정현우](https://github.com/Nuung), [전세영](https://github.com/SeyoungJeon)
