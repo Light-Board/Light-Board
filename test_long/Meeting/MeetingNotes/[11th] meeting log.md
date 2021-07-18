@@ -1,10 +1,12 @@
 ---
-sort: 10
+sort: 11
 ---
-# 10th meeting log
+
+# 11th meeting log
+
 ## 기본 사항
 - 참가자 [정현우](https://github.com/Nuung), [전세영](https://github.com/SeyoungJeon)
-- 일시 2021/07/10
+- 일시 2021/07/18
 
 ## 오늘 회의 토픽 요약
 

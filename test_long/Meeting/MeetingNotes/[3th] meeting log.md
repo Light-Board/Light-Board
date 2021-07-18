@@ -1,3 +1,6 @@
+---
+sort: 3
+---
 # 3th meeting log
 
 ## 기본 사항
