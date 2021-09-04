@@ -6,7 +6,7 @@ sort: 16
 
 ## 기본 사항
 - 참가자 [정현우](https://github.com/Nuung), [전세영](https://github.com/SeyoungJeon)
-- 일시 2021/08/31
+- 일시 2021/09/04
 
 ## 오늘 회의 토픽 요약
 
@@ -26,8 +26,15 @@ sort: 16
     - 1. 회원가입 API + 명세
     - 2. 보드프레임 API + 명세
 
-4. 알림 부분 먼저 하자
-    - 어떻게 카프카를 도입해서 구축을 할 것 인가?
+4. 알림
+    - 스프링 / 카프카 / 몽고디비 구축 필요 
+    - BE, 스프링 서버 내부에 kafka 패키지 생성 (global)
+        1) 해당 패키지에 kafka lib import, object 및 send메서드 세팅
+        2) send (produce) 가 필요한 BO에서 해당 obj @Autowired 가져와서 메서드 호출 
+        3) 해당 페키지 내부에 consumer가 존재 / while true로 계속 컨슘만 하고 있음 / 쓰레드 Runable
+        4) 해당 consumer process가 mongodb에 메시지 기반 내용을 계속 insert 함!! 
+    - FE, 알림 컴포넌트에서 long polling 
+        1) 해당 유저 ID 값 기반으로 알맞은 알림 정보를 계속해서 srping BE로  request 를 날림! 
 
 5. 피그마 프로젝트 생성
     - FE 뷰 단위, 가벼운 디자인 부터 시작
