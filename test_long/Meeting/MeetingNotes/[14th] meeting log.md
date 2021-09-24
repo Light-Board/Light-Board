@@ -60,7 +60,7 @@ sort: 14
     `updated_at` TIMESTAMP NULL DEFAULT NULL,
     `updated_user_no` BIGINT NULL DEFAULT NULL,
     `tags` VARCHAR(300) NULL DEFAULT NULL, # JSON 
-    `borad_frame_id` BIGINT NOT NULL,
+    `board_frame_id` BIGINT NOT NULL,
     PRIMARY KEY (`board_id`))
     ENGINE = InnoDB
     DEFAULT CHARACTER SET = utf8;
