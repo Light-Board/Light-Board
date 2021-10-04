@@ -107,6 +107,7 @@ sort: 14
 
     -- -----------------------------------------------------
     -- Table `light_board`.`profile`
+    -- [2021.10.04] profile 확실하게 더 이상 안씀
     -- -----------------------------------------------------
     CREATE TABLE IF NOT EXISTS `light_board`.`profile` (
     `profile_user_no` BIGINT NOT NULL AUTO_INCREMENT,
